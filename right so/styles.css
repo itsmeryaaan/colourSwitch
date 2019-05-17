@@ -1,0 +1,60 @@
+/* Global */
+html, body {
+	overflow-x: hidden;
+	line-height: 1.6;
+	margin: 0;
+}
+
+/* Defaults */
+.body-default {
+	background-color: #E5F0FF;
+}
+
+.nav-default {
+	border-radius: 0rem 0rem 1rem 0rem;
+	margin-bottom: 1rem;
+	box-shadow: 5px 5px 0px #002aff;
+}
+
+.h1-default {
+	padding: 0.3rem 0.6rem 0.6rem 0.6rem;
+	color: white;
+	background-color: #012A36;
+	display: inline;
+	border-radius: 0rem 0rem 0.3rem 0.6rem;
+	box-shadow: 5px 5px 0px #002aff;
+}
+
+.p-default {
+	color: #012A36;
+}
+
+/* empty
+.primary-row {}
+.secondary-row {}
+.row-in-row-default {}
+.blockquote-default {}
+*/
+
+/* Monochromatic */
+.nav-mono {
+	border-radius: 0rem 0rem 1rem 1rem;
+	background-color: black !important;
+	margin-bottom: 1rem;
+	color: white !important;
+	box-shadow: 5px 5px 0px #ffffff;
+}
+
+.body-mono {
+	color: black;
+	background-color: white;
+}
+
+.h1-mono {
+	padding: 0.3rem 0.6rem 0.6rem 0.6rem;
+	color: black;
+	background-color: #ffffff;
+	display: inline;
+	border-radius: 0rem 0rem 0.3rem 0.6rem;
+	box-shadow: 5px 5px 0px #000000;
+}
